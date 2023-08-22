@@ -177,10 +177,8 @@ h1 {
    object-fit: cover;
   
 }
-p {
-  word-spacing: 1em;
-  letter-spacing: 2px;
-}
+
+
 #about {
   display: flex;
   justify-content: center;
@@ -280,6 +278,13 @@ background-color: #d4ddc3;
   box-shadow: 7px 7px 7px  #7e80ba;
   
 }
+.slider-prev {
+  padding: 10px;
+  margin: 15px;
+  background: rgb(172, 172, 225);
+  box-shadow: 7px 7px 7px  #7e80ba;
+  
+}
 
 .name-avto  li{
   
@@ -304,25 +309,24 @@ background-color: #d4ddc3;
   
 }
 #promo>div {
-  /* position: absolute;
-  top: 13%;
-  left: 40%;
-  color: white;
-  font-size: 25px;
-  overflow: hidden;  */
-  position: absolute; 
   bottom: 0; 
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   width: 100%; 
   padding: 20px;  
 }
+   
+ 
+   
   
   
 .icon-bar {
-  position: absolute;
+  
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
   top: 50%;
-
+  justify-content: center;
  
 }
 
@@ -330,6 +334,9 @@ background-color: #d4ddc3;
 .icon-bar a {
   
   text-align: center;
+  width: 50px;
+  height: 50px;
+
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
