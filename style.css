@@ -45,6 +45,7 @@ header {
   color: black;
   padding: 10px;
   transition: 0.5s;
+  margin: 25px;
 }
 
 .academy:hover {
@@ -80,10 +81,10 @@ nav ul li ul li {
   width: 100%;
 }
 
-nav ul li ul li {
+/* nav ul li ul li {
   left: 80px;
 
-}
+} */
 
 nav ul li:hover>ul {
   display: initial;
